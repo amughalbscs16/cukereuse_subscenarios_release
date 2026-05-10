@@ -2,15 +2,15 @@
   "_description": "Single-stop corpus shape for paper-3 reproducibility. Derived from analysis/slices.parquet on the slice-bearing subset of the 347-repo cukereuse corpus.",
   "n_repos_in_full_corpus": 347,
   "n_repos_with_slices": 339,
-  "n_organisations_with_slices": 276,
+  "n_distinct_upstream_owners": 276,
   "n_files_with_slices": 21946,
   "n_scenarios_with_slices": 126621,
   "n_scenarios_named_no_background_len_ge_2": 134635,
   "n_steps_total": 1113616,
-  "organisation_definition": "segment before the first underscore in repo_slug",
+  "owner_definition": "segment before the first underscore in repo_slug; equivalent to the top-level GitHub account-owner namespace, which can be either an Organisation account or a User account (a mix of both is present in the corpus)",
   "filtering_chain": [
     {"step": "full corpus from cukereuse (paper 2)", "n_repos": 347, "n_steps": 1113616},
     {"step": "named, non-Background, length>=2 scenarios", "n_scenarios": 134635},
-    {"step": "after cluster-id filter (Phase 1, drops scenarios <2 clustered steps)", "n_scenarios": 126621, "n_repos_retaining_slice": 339, "n_organisations": 276}
+    {"step": "after cluster-id filter (Phase 1, drops scenarios <2 clustered steps)", "n_scenarios": 126621, "n_repos_retaining_slice": 339, "n_distinct_upstream_owners": 276}
   ]
 }

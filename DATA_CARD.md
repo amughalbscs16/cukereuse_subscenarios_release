@@ -39,7 +39,7 @@ Follows the template from Gebru et al., *Datasheets for Datasets*, CACM 64(12), 
 | Axis | Count |
 |---|---:|
 | repositories with at least one slice | 339 |
-| organisations (segment before first underscore in repo slug) | 276 |
+| distinct upstream owners (segment before first underscore in repo slug; a mix of Organisation and User accounts on GitHub) | 276 |
 | `.feature` files with at least one slice | 21,946 |
 | named non-Background scenarios with length ≥ 2 | 134,635 |
 | ditto, after cluster-id filter (≥ 2 clustered steps) | 126,621 |

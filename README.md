@@ -15,7 +15,7 @@ This is paper 3 of a three-paper arc on test reuse in Cucumber-style BDD. Paper 
 
 A reproducible bundle covering the full paper-3 pipeline:
 
-- **Slice inventory** — every contiguous L-step window (L = 2..18) drawn from 126,621 named, non-Background scenarios across **339 repositories / 276 organisations**, keyed by paraphrase-robust cluster identifiers from the cukereuse hybrid clusterer.
+- **Slice inventory** — every contiguous L-step window (L = 2..18) drawn from 126,621 named, non-Background scenarios across **339 repositories / 276 distinct upstream owners** (Organisation and User accounts on GitHub treated as the same unit of distinct top-level account ownership; see DATA_CARD), keyed by paraphrase-robust cluster identifiers from the cukereuse hybrid clusterer.
 - **Subsequence ranking** — exact-pattern recurrence counts under three scopes (within-file / within-repo / cross-organisational), with outlier de-noising and filtered candidate exports.
 - **Labelled pool** — 200 stratified slices (5 length × 3 scope × 4 support strata) labelled by all three authors against a written rubric, with a 60-slice overlap subset for inter-rater agreement (Fleiss' κ = 0.560 on the 4-category extraction-worthy label, 0.788 on the 5-category mechanism label).
 - **Classifier baselines** — XGBoost extraction-worthy classifier (5-fold OOF F₁ = 0.891, AUC = 0.879) and mechanism classifier (5-fold OOF accuracy = 0.965, macro-F₁ = 0.955); rule-baseline comparison via McNemar's test (χ² = 5.69, p = 0.017).
@@ -147,7 +147,7 @@ uv run python scripts/11_extraction_candidates_html_report.py
 
 These are the citable headline numbers from this release. The accompanying paper presents them with full methodology, bootstrap confidence intervals, and the licence-stratification, classifier-baseline, and LLM-judge comparisons.
 
-- **Slice inventory:** 339 repositories / 276 organisations, 21,946 `.feature` files, 126,621 named non-Background scenarios with length ≥ 2, 5,382,249 slices over L ∈ [2, 18].
+- **Slice inventory:** 339 repositories / 276 distinct upstream owners (Organisation and User accounts on GitHub), 21,946 `.feature` files, 126,621 named non-Background scenarios with length ≥ 2, 5,382,249 slices over L ∈ [2, 18].
 - **Distinct cluster-id patterns:** 692,020 total; 595,857 with support ≥ 2 (the input to extraction-worthy ranking).
 - **Author-labelled extraction-worthy rate (200-slice stratified pool):** 71.7% yes, 9.1% flagged-spec, 19.2% no/uncertain.
 - **Inter-rater agreement (60-slice overlap, three authors):** Fleiss' κ = 0.560 (4-category extraction-worthy), Fleiss' κ = 0.788 (5-category mechanism).
