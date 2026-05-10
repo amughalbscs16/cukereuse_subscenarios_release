@@ -1,0 +1,28 @@
+{
+  "n_total": 200,
+  "n_overlap": 60,
+  "n_per_author": 46,
+  "by_stratum": {
+    "real_signal": 180,
+    "spec_dominated": 20
+  },
+  "by_L_bucket": {
+    "L_2_3": 58,
+    "L_4_5": 47,
+    "L_6_8": 41,
+    "L_9_12": 28,
+    "L_13_18": 26
+  },
+  "by_scope": {
+    "RQ2": 94,
+    "RQ3": 61,
+    "RQ1": 45
+  },
+  "by_support_bucket": {
+    "sup_2_5": 87,
+    "sup_6_20": 46,
+    "sup_21_100": 39,
+    "sup_gt100": 28
+  },
+  "n_examples_on_outlier_file": 19
+}

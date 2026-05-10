@@ -1,0 +1,78 @@
+{
+  "per_model": {
+    "inclusionai/ling-2.6-1t:free": {
+      "n_total": 200,
+      "n_valid": 200,
+      "n_failed": 0,
+      "extraction_worthy_distribution": {
+        "no": 115,
+        "yes": 65,
+        "flagged-spec": 20
+      },
+      "mechanism_distribution": {
+        "n/a": 135,
+        "reusable_scenario": 30,
+        "shared_higher_level_step": 19,
+        "background": 16
+      },
+      "vs_human": {
+        "n_compared": 197,
+        "accuracy_4cat": 0.528,
+        "accuracy_binary_yes_vs_rest": 0.563,
+        "cohen_kappa_4cat": 0.3,
+        "cohen_kappa_binary": 0.243,
+        "yes_class_precision": 0.938,
+        "yes_class_recall": 0.427,
+        "yes_class_f1": 0.587,
+        "mechanism_accuracy_on_yes_yes": 0.951,
+        "n_yes_yes": 61
+      }
+    },
+    "openai/gpt-oss-120b:free": {
+      "n_total": 200,
+      "n_valid": 200,
+      "n_failed": 0,
+      "extraction_worthy_distribution": {
+        "no": 86,
+        "yes": 96,
+        "flagged-spec": 18
+      },
+      "mechanism_distribution": {
+        "n/a": 104,
+        "background": 14,
+        "shared_higher_level_step": 32,
+        "reusable_scenario": 50
+      },
+      "vs_human": {
+        "n_compared": 197,
+        "accuracy_4cat": 0.64,
+        "accuracy_binary_yes_vs_rest": 0.67,
+        "cohen_kappa_4cat": 0.379,
+        "cohen_kappa_binary": 0.348,
+        "yes_class_precision": 0.906,
+        "yes_class_recall": 0.608,
+        "yes_class_f1": 0.728,
+        "mechanism_accuracy_on_yes_yes": 0.977,
+        "n_yes_yes": 87
+      }
+    }
+  },
+  "inter_llm_fleiss": {
+    "n_models": 2,
+    "n_items_all_models_valid": 200,
+    "fleiss_kappa_4cat": 0.393,
+    "fleiss_kappa_binary": 0.304
+  },
+  "ranking_by_cohen_kappa_binary": [
+    {
+      "model": "openai/gpt-oss-120b:free",
+      "kappa": 0.348,
+      "f1_yes": 0.728
+    },
+    {
+      "model": "inclusionai/ling-2.6-1t:free",
+      "kappa": 0.243,
+      "f1_yes": 0.587
+    }
+  ]
+}

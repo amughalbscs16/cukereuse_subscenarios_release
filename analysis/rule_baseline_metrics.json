@@ -1,0 +1,44 @@
+{
+  "rule_baselines": {
+    "R1_outlier_fraction_lt_0.3": {
+      "name": "Rule R1 outlier<0.3",
+      "precision": 0.8012820512820513,
+      "recall": 0.8741258741258742,
+      "f1": 0.8361204013377926,
+      "accuracy": 0.751269035532995
+    },
+    "trivial_predict_all_yes": {
+      "name": "Trivial all-yes",
+      "precision": 0.7258883248730964,
+      "recall": 1.0,
+      "f1": 0.8411764705882353,
+      "accuracy": 0.7258883248730964
+    }
+  },
+  "xgboost_oof": {
+    "name": "XGBoost OOF",
+    "precision": 0.8675496688741722,
+    "recall": 0.916083916083916,
+    "f1": 0.891156462585034,
+    "accuracy": 0.8375634517766497
+  },
+  "mcnemar_xgb_vs_R1": {
+    "b": 31,
+    "c": 14,
+    "chi2": 5.688888888888889,
+    "p_value": 0.017072661093788466,
+    "interpretation": "b = items XGB classifies correctly but R1 misclassifies; c = converse"
+  },
+  "mcnemar_xgb_vs_gpt_oss_120b": {
+    "a_right_only": 52,
+    "b_right_only": 19,
+    "chi2": 14.422535211267606,
+    "p_value": 0.00014604415898389345
+  },
+  "mcnemar_xgb_vs_ling_2_6_1t": {
+    "a_right_only": 71,
+    "b_right_only": 17,
+    "chi2": 31.920454545454547,
+    "p_value": 1.606168797962937e-08
+  }
+}

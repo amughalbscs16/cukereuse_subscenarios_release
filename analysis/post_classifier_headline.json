@@ -1,0 +1,23 @@
+{
+  "n_predicted_extraction_worthy_patterns": 464073,
+  "n_predicted_ew_with_rq1": 316828,
+  "n_predicted_ew_with_rq2": 203722,
+  "n_predicted_ew_with_rq3": 24691,
+  "scenario_level_extraction_worthy": {
+    "n_scenarios_total": 126621,
+    "n_with_rq1_ew": 95007,
+    "pct_with_rq1_ew": 75.03,
+    "n_with_rq2_ew": 75396,
+    "pct_with_rq2_ew": 59.54,
+    "n_with_rq3_ew": 14864,
+    "pct_with_rq3_ew": 11.74
+  },
+  "repo_level_extraction_worthy": {
+    "n_repos_total": 339,
+    "n_with_rq2_ew_candidate": 282,
+    "pct_with_rq2_ew_candidate": 83.19,
+    "n_with_rq3_ew_candidate": 148,
+    "pct_with_rq3_ew_candidate": 43.66
+  },
+  "wall_seconds": 18.9
+}

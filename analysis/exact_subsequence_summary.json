@@ -1,0 +1,10 @@
+{
+  "n_slices_input": 5382249,
+  "n_unique_patterns": 2349063,
+  "n_recurring_patterns": 692020,
+  "rq1_within_file_candidates": 403745,
+  "rq2_within_repo_candidates": 246007,
+  "rq3_cross_repo_candidates": 62771,
+  "wall_seconds": 79.5,
+  "output_mb": 15.3
+}

@@ -1,0 +1,62 @@
+{
+  "n_slices_total": 5382249,
+  "n_recurring_patterns": 692020,
+  "n_real_signal_patterns": 616464,
+  "n_spec_dominated_patterns": 75556,
+  "scenario_level_full": {
+    "n_scenarios_total": 126621,
+    "n_with_any_recurring": 121701,
+    "pct_with_any_recurring": 96.11,
+    "n_with_rq1": 114131,
+    "pct_with_rq1": 90.14,
+    "n_with_rq2": 106496,
+    "pct_with_rq2": 84.11,
+    "n_with_rq3": 21690,
+    "pct_with_rq3": 17.13
+  },
+  "scenario_level_real_signal": {
+    "n_with_rq1": 95126,
+    "pct_with_rq1": 75.13,
+    "n_with_rq2": 87585,
+    "pct_with_rq2": 69.17,
+    "n_with_rq3": 21690,
+    "pct_with_rq3": 17.13
+  },
+  "repo_level": {
+    "n_repos_total": 339,
+    "n_with_rq2_candidate": 300,
+    "pct_with_rq2_candidate": 88.5,
+    "n_with_rq3_candidate": 167,
+    "pct_with_rq3_candidate": 49.26,
+    "per_repo_distinct_recurring_patterns": {
+      "median": 115,
+      "p25": 23,
+      "p75": 555,
+      "p95": 15045,
+      "max": 125767
+    }
+  },
+  "file_level": {
+    "n_files_total": 21946,
+    "n_with_rq1_candidate": 17679,
+    "pct_with_rq1_candidate": 80.56
+  },
+  "spec_suite_outliers": {
+    "median_per_file_rq1_patterns": 8.0,
+    "detector_version": "v3 (Phase 2c: density AND (top-recurrence OR template-heavy))",
+    "n_outlier_files": 154,
+    "top_outlier_repos": {
+      "local-web-services_local-web-services": 121,
+      "CDCgov_NEDSS-Modernization": 6,
+      "keygen-sh_keygen-api": 5,
+      "DataDog_datadog-api-client-typescript": 3,
+      "DataDog_datadog-api-client-ruby": 3,
+      "DataDog_datadog-api-client-rust": 3,
+      "DataDog_datadog-api-client-go": 3,
+      "DataDog_datadog-api-client-python": 3,
+      "kiali_kiali": 3,
+      "typedb_typedb-behaviour": 2
+    }
+  },
+  "wall_seconds": 44.6
+}

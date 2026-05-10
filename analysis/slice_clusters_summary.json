@@ -1,0 +1,13 @@
+{
+  "n_patterns_input": 692020,
+  "n_patterns_clustered": 619827,
+  "n_unknown_cid_patterns": 0,
+  "n_clusters": 33121,
+  "n_noise_points": 156617,
+  "noise_fraction": 0.253,
+  "cluster_size_min": 5,
+  "cluster_size_median": 10.0,
+  "cluster_size_p95": 35.0,
+  "cluster_size_max": 607,
+  "wall_seconds": 1730.1
+}

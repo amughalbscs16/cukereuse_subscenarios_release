@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use these artefacts (slice inventory, pattern ranking, labelled pool, classifier outputs, LLM-judge runs), please cite both the software/data archive (this repository) and the accompanying preprint below."
+title: "cukereuse-subscenarios: paraphrase-robust subsequence mining and three-scope refactoring-candidate ranking for Cucumber/Gherkin"
+type: software
+authors:
+  - family-names: Mughal
+    given-names: Ali Hassaan
+    orcid: "https://orcid.org/0000-0002-0724-9197"
+    affiliation: "Independent Researcher; Applied MBA (Data Analytics), Texas Wesleyan University, USA"
+    email: alihassaanmughal.work@gmail.com
+  - family-names: Fatima
+    given-names: Noor
+    affiliation: "Independent Researcher; B.E. Computer Engineering, National University of Sciences and Technology (NUST), Pakistan"
+    email: nfatima.bce25seecs@seecs.edu.pk
+  - family-names: Bilal
+    given-names: Muhammad
+    orcid: "https://orcid.org/0000-0003-4106-0256"
+    affiliation: "Independent Researcher; M.Sc. Management, Technical University of Munich, Germany"
+    email: m.bilal@tum.de
+repository-code: "https://github.com/amughalbscs16/cukereuse_subscenarios_release"
+license: Apache-2.0
+version: 0.1.0
+date-released: 2026-05-09
+preferred-citation:
+  type: article
+  title: "Mining Subscenario Refactoring Opportunities in Behaviour-Driven Test Suites: A Paraphrase-Robust, Three-Author-Labelled Empirical Study with Classifier and LLM-Judge Baselines (339 Repositories)"
+  authors:
+    - family-names: Mughal
+      given-names: Ali Hassaan
+      orcid: "https://orcid.org/0000-0002-0724-9197"
+    - family-names: Fatima
+      given-names: Noor
+    - family-names: Bilal
+      given-names: Muhammad
+      orcid: "https://orcid.org/0000-0003-4106-0256"
+  year: 2026
+  journal: "Software Quality Journal (under review)"
+  notes: "Manuscript under review at Software Quality Journal (Springer, ISSN 0963-9314)."

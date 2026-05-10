@@ -1,0 +1,92 @@
+{
+  "n_total": 200,
+  "n_overlap": 60,
+  "per_author_distribution": {
+    "A": {
+      "extraction_worthy": {
+        "uncertain": 4,
+        "no": 12,
+        "yes": 77,
+        "flagged-spec": 13
+      },
+      "mechanism": {
+        "n/a": 29,
+        "background": 16,
+        "shared_higher_level_step": 27,
+        "reusable_scenario": 34
+      },
+      "n": 106
+    },
+    "B": {
+      "extraction_worthy": {
+        "yes": 72,
+        "uncertain": 11,
+        "no": 11,
+        "flagged-spec": 12
+      },
+      "mechanism": {
+        "background": 16,
+        "reusable_scenario": 27,
+        "shared_higher_level_step": 29,
+        "n/a": 34
+      },
+      "n": 106
+    },
+    "C": {
+      "extraction_worthy": {
+        "no": 23,
+        "yes": 72,
+        "flagged-spec": 13
+      },
+      "mechanism": {
+        "n/a": 36,
+        "reusable_scenario": 39,
+        "background": 12,
+        "shared_higher_level_step": 21
+      },
+      "n": 108
+    }
+  },
+  "fleiss_kappa_extraction_worthy_4cat": 0.56,
+  "fleiss_kappa_mechanism_5cat": 0.788,
+  "pairwise_agreement_overlap": {
+    "A-B_extract": 0.717,
+    "A-B_mech": 0.8,
+    "A-C_extract": 0.85,
+    "A-C_mech": 0.933,
+    "B-C_extract": 0.75,
+    "B-C_mech": 0.8
+  },
+  "majority_distribution_overlap_extract": {
+    "yes": 41,
+    "no": 9,
+    "flagged-spec": 7,
+    "tie": 3
+  },
+  "tie_examples": [
+    {
+      "pattern": "15712,2586",
+      "labels": [
+        "yes",
+        "uncertain",
+        "no"
+      ]
+    },
+    {
+      "pattern": "45152,45150",
+      "labels": [
+        "uncertain",
+        "yes",
+        "no"
+      ]
+    },
+    {
+      "pattern": "48324,56225",
+      "labels": [
+        "uncertain",
+        "yes",
+        "no"
+      ]
+    }
+  ]
+}

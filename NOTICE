@@ -1,0 +1,27 @@
+cukereuse-subscenarios
+Copyright 2026 Ali Hassaan Mughal, Noor Fatima, Muhammad Bilal
+
+This product is licensed under the Apache License, Version 2.0 (the
+"License"); see the LICENSE file at the root of this repository or
+obtain a copy at:
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+implied. See the License for the specific language governing
+permissions and limitations under the License.
+
+This release ships derived analytical artefacts (parquet, JSONL, CSV,
+JSON) computed from the cukereuse step corpus
+(https://github.com/amughalbscs16/cukereuse-release). The underlying
+.feature-file bodies are NOT included in this distribution and remain
+subject to their respective upstream licences as recorded in the
+per-step license_spdx column of the cukereuse corpus. See
+DATA_CARD.md for the full provenance discussion.
+
+Author-produced labels in methodology/labels.jsonl carry an explicit
+labeler field (A / B / C) and the rubric clause that fired per row.
+Labels were applied directly by the three named authors against the
+written rubric in methodology/LABELING_RUBRIC_paper2_slice_level.md.

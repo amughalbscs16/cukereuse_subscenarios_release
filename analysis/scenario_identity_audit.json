@@ -1,0 +1,72 @@
+{
+  "A_naive_repo_scenario": {
+    "label": "naive (repo, scenario)",
+    "n_scenarios": 120532,
+    "min": 1,
+    "p25": 4.0,
+    "median": 6.0,
+    "mean": 9.239172999701324,
+    "p75": 9.0,
+    "p90": 14.0,
+    "p95": 21.0,
+    "p99": 56.0,
+    "max": 8765,
+    "n_length_lt_2": 1394
+  },
+  "B_repo_file_scenario": {
+    "label": "(repo_slug, file_path, scenario)",
+    "n_scenarios": 150622,
+    "min": 1,
+    "p25": 4.0,
+    "median": 5.0,
+    "mean": 7.393448500219091,
+    "p75": 8.0,
+    "p90": 12.0,
+    "p95": 17.0,
+    "p99": 38.0,
+    "max": 1373,
+    "n_length_lt_2": 5481
+  },
+  "C_no_bg_repo_file_scenario": {
+    "label": "no-Background, (repo_slug, file_path, scenario)",
+    "n_scenarios": 136970,
+    "min": 1,
+    "p25": 4.0,
+    "median": 6.0,
+    "mean": 7.6834489304227205,
+    "p75": 9.0,
+    "p90": 12.0,
+    "p95": 18.0,
+    "p99": 40.0,
+    "max": 1373,
+    "n_length_lt_2": 1953
+  },
+  "D_named_no_bg": {
+    "label": "named, no-Background, (repo_slug, file_path, scenario)",
+    "n_scenarios": 136567,
+    "min": 1,
+    "p25": 4.0,
+    "median": 6.0,
+    "mean": 7.6763639825140775,
+    "p75": 9.0,
+    "p90": 12.0,
+    "p95": 18.0,
+    "p99": 39.0,
+    "max": 1373,
+    "n_length_lt_2": 1932
+  },
+  "E_named_no_bg_len_ge_2": {
+    "label": "D + length>=2",
+    "n_scenarios": 134635,
+    "min": 2,
+    "p25": 4.0,
+    "median": 6.0,
+    "mean": 7.772169198202548,
+    "p75": 9.0,
+    "p90": 12.0,
+    "p95": 18.0,
+    "p99": 40.0,
+    "max": 1373,
+    "n_length_lt_2": 0
+  }
+}

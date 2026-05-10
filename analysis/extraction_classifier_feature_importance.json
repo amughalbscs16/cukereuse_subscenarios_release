@@ -1,0 +1,17 @@
+{
+  "outlier_fraction": 0.325609028339386,
+  "support_total": 0.1238972395658493,
+  "L": 0.11417750269174576,
+  "ratio_within_repo": 0.097495898604393,
+  "max_within_file_recurrence": 0.08799495548009872,
+  "n_distinct_repos": 0.05771894380450249,
+  "ratio_within_file": 0.055087726563215256,
+  "max_within_repo_files": 0.04847461357712746,
+  "n_distinct_orgs": 0.04174310714006424,
+  "n_distinct_files": 0.03523634001612663,
+  "scope_RQ2": 0.012564672157168388,
+  "has_template_structure": 0.0,
+  "scope_RQ1": 0.0,
+  "scope_RQ3": 0.0,
+  "ratio_orgs": 0.0
+}

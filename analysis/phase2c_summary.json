@@ -1,0 +1,16 @@
+{
+  "n_patterns": 692020,
+  "rq3_repos_old": 62771,
+  "rq3_orgs_new": 30955,
+  "rq3_dropped_same_org_inflation": 31816,
+  "n_patterns_with_template_structure": 46129,
+  "spec_suite_v3_files": 154,
+  "spec_suite_v1_files_dropped": 2305,
+  "v3_thresholds": {
+    "density": 50,
+    "top_pattern_recurrence": 100,
+    "template_fraction": 0.3,
+    "rule": "density AND (top-recurrence OR template-heavy)"
+  },
+  "wall_seconds": 6089.2
+}
