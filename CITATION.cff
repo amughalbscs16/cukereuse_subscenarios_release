@@ -23,7 +23,7 @@ version: 0.1.0
 date-released: 2026-05-09
 preferred-citation:
   type: article
-  title: "Mining Subscenario Refactoring Opportunities in Behaviour-Driven Software Test Suites"
+  title: "Mining Subscenario Refactoring Opportunities in Behaviour-Driven Software Test Suites: ML Classifiers and LLM-Judge Baselines"
   authors:
     - family-names: Mughal
       given-names: Ali Hassaan
