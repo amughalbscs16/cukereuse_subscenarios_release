@@ -2,18 +2,27 @@
 
 Used by the subscenario-mining scripts so they don't need to re-implement
 the repo-traversal logic each time. Reads from a local copy in
-``corpus/`` if present; otherwise falls back to the cukereuse-release
-sibling directory.
+``corpus/`` if present; otherwise falls back to a sibling
+``cukereuse-release/corpus`` directory (the upstream cukereuse repo
+checked out next to this one). The fallback path can be overridden via
+the ``CUKEREUSE_RELEASE_CORPUS`` environment variable.
 """
 
 from __future__ import annotations
 
+import os
 import pathlib
 
 import pandas as pd
 
 LOCAL_CORPUS = pathlib.Path(__file__).resolve().parent.parent / "corpus"
-RELEASE_CORPUS = pathlib.Path("D:/Claude/cukereuse-release/corpus")
+RELEASE_CORPUS = pathlib.Path(
+    os.environ.get(
+        "CUKEREUSE_RELEASE_CORPUS",
+        str(pathlib.Path(__file__).resolve().parent.parent.parent
+            / "cukereuse-release" / "corpus"),
+    )
+)
 
 
 def _resolve(name: str) -> pathlib.Path:
