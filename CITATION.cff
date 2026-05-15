@@ -21,6 +21,13 @@ repository-code: "https://github.com/amughalbscs16/cukereuse_subscenarios_releas
 license: Apache-2.0
 version: 0.1.0
 date-released: 2026-05-09
+identifiers:
+  - type: other
+    value: "arXiv:2605.14568"
+    description: "arXiv preprint identifier for the accompanying paper."
+  - type: url
+    value: "https://arxiv.org/abs/2605.14568"
+    description: "arXiv landing page for the accompanying paper."
 preferred-citation:
   type: article
   title: "Mining Subscenario Refactoring Opportunities in Behaviour-Driven Software Test Suites: ML Classifiers and LLM-Judge Baselines"
@@ -34,5 +41,9 @@ preferred-citation:
       given-names: Muhammad
       orcid: "https://orcid.org/0000-0003-4106-0256"
   year: 2026
-  journal: "Software Quality Journal (under review)"
-  notes: "Manuscript under review at Software Quality Journal (Springer, ISSN 0963-9314)."
+  journal: "arXiv preprint (under review at Software Quality Journal)"
+  url: "https://arxiv.org/abs/2605.14568"
+  identifiers:
+    - type: other
+      value: "arXiv:2605.14568"
+  notes: "arXiv preprint 2605.14568. Manuscript also under peer review at Software Quality Journal (Springer, ISSN 0963-9314); citation will be updated to the journal version of record upon acceptance."
