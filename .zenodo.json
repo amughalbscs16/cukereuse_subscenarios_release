@@ -1,0 +1,68 @@
+{
+  "title": "cukereuse-subscenarios: paraphrase-robust subsequence mining and three-scope refactoring-candidate ranking for Cucumber/Gherkin",
+  "description": "<p>Reproduction package for <em>Mining Subscenario Refactoring Opportunities in Behaviour-Driven Software Test Suites: ML Classifiers and LLM-Judge Baselines</em> (Mughal, Fatima, Bilal, 2026; arXiv:2605.14568; under peer review at Software Quality Journal).</p><p>The deposit ships the full paper-3 pipeline and its derived analytical artefacts: a slice inventory of every contiguous L-step window (L = 2..18) across 126,621 named scenarios in 339 repositories / 276 distinct upstream owners; exact-pattern recurrence counts under three scopes (within-file, within-repo, cross-organisational); a 200-slice author-labelled pool with a 60-slice overlap subset (Fleiss' &kappa; = 0.560 / 0.788 on extraction-worthy / mechanism labels); XGBoost extraction-worthy and mechanism classifiers (5-fold OOF F1 = 0.891 / accuracy = 0.965); a rule-baseline comparison via McNemar's test; and an LLM-judge replication on the same 200-slice pool using two open-weight models via OpenRouter (openai/gpt-oss-120b, inclusionai/ling-2.6-1t).</p><p>Contents: <code>analysis/</code> (~153 MB derived artefacts &mdash; slices, cluster ids, exact-subsequence ranking, classifier predictions, per-fold metrics, corpus and population rollups, HTML candidate report), <code>methodology/</code> (rubric, per-author labels, labelling pool, LLM-judge raw outputs and agreement metrics), <code>scripts/</code> (21 numbered pipeline scripts), <code>DATA_CARD.md</code> (per-artefact provenance and schema), <code>CITATION.cff</code>, <code>LICENSE</code> (Apache-2.0), <code>NOTICE</code>, <code>pyproject.toml</code>, <code>README.md</code>.</p><p>Not redistributed (regenerable from <code>slices.parquet</code> via <code>scripts/04_slice_embedding_clustering.py</code>): <code>slice_embeddings.npz</code> (820 MB) and <code>cluster_embeddings.npz</code> (89 MB). The shipped <code>slice_clusters.parquet</code> already carries the cluster ids those embeddings produced.</p><p>This is paper 3 of a three-paper arc on test reuse in Cucumber-style BDD. Paper 1 (Mughal 2024) introduced three concrete reuse mechanisms in Cucumber-Java; paper 2 (<em>cukereuse</em>, github.com/amughalbscs16/cukereuse-release) measured step-level duplication on a 1.1M-step open corpus; paper 3 lifts the analysis from steps to contiguous step subsequences (slices), ranks them by refactoring suitability, and maps each surviving candidate to one of paper 1's three mechanisms.</p>",
+  "upload_type": "software",
+  "language": "eng",
+  "access_right": "open",
+  "license": "Apache-2.0",
+  "version": "0.1.0",
+  "publication_date": "2026-05-09",
+  "creators": [
+    {
+      "name": "Mughal, Ali Hassaan",
+      "affiliation": "Independent Researcher; Applied MBA (Data Analytics), Texas Wesleyan University, USA",
+      "orcid": "0000-0002-0724-9197"
+    },
+    {
+      "name": "Fatima, Noor",
+      "affiliation": "Independent Researcher; B.E. Computer Engineering, National University of Sciences and Technology (NUST), Pakistan"
+    },
+    {
+      "name": "Bilal, Muhammad",
+      "affiliation": "Independent Researcher; M.Sc. Management, Technical University of Munich, Germany",
+      "orcid": "0000-0003-4106-0256"
+    }
+  ],
+  "keywords": [
+    "behaviour-driven development",
+    "Cucumber",
+    "Gherkin",
+    "test refactoring",
+    "test reuse",
+    "subsequence mining",
+    "code clone detection",
+    "paraphrase-robust clustering",
+    "XGBoost",
+    "LLM-as-judge",
+    "inter-rater agreement",
+    "software repository mining",
+    "reproducibility package"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "arXiv:2605.14568",
+      "relation": "isSupplementTo",
+      "scheme": "arxiv",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "https://arxiv.org/abs/2605.14568",
+      "relation": "isSupplementTo",
+      "scheme": "url",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "https://github.com/amughalbscs16/cukereuse_subscenarios_release",
+      "relation": "isSupplementTo",
+      "scheme": "url",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://github.com/amughalbscs16/cukereuse-release",
+      "relation": "isDerivedFrom",
+      "scheme": "url",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "Manuscript is currently an arXiv preprint (arXiv:2605.14568) and is under peer review at the Software Quality Journal (Springer, ISSN 0963-9314). Citation will be updated to the journal version of record upon acceptance."
+}
