@@ -22,6 +22,12 @@ license: Apache-2.0
 version: 0.1.1
 date-released: 2026-05-09
 identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20356526"
+    description: "Zenodo Concept DOI (always resolves to the latest archived version of this repository)."
+  - type: doi
+    value: "10.5281/zenodo.20356527"
+    description: "Zenodo Version DOI for the v0.1.1 archived release."
   - type: other
     value: "arXiv:2605.14568"
     description: "arXiv preprint identifier for the accompanying paper."

@@ -1,7 +1,7 @@
 # cukereuse-subscenarios: subsequence-level refactoring candidate mining for Cucumber/Gherkin
 
 [![arXiv](https://img.shields.io/badge/arXiv-2605.14568-b31b1b.svg)](https://arxiv.org/abs/2605.14568)
-[![DOI](https://zenodo.org/badge/1234937309.svg)](https://zenodo.org/badge/latestdoi/1234937309)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20356526.svg)](https://doi.org/10.5281/zenodo.20356526)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](pyproject.toml)
 [![Status](https://img.shields.io/badge/status-research_release-brightgreen.svg)](CITATION.cff)
