@@ -19,7 +19,7 @@ authors:
     email: m.bilal@tum.de
 repository-code: "https://github.com/amughalbscs16/cukereuse_subscenarios_release"
 license: Apache-2.0
-version: 0.1.0
+version: 0.1.1
 date-released: 2026-05-09
 identifiers:
   - type: other

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "cukereuse-subscenarios"
-version = "0.1.0"
+version = "0.1.1"
 description = "Paraphrase-robust subsequence mining and three-scope refactoring-candidate ranking for Cucumber/Gherkin (paper 3 reproduction package)."
 readme = "README.md"
 license = { text = "Apache-2.0" }
