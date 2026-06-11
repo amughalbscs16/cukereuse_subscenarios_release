@@ -1,0 +1,86 @@
+{
+  "thresholds": {
+    "0.3": {
+      "n_patterns_ew": 500026,
+      "pct_patterns_ew": 83.9,
+      "scenario_pct_rq1": 77.6,
+      "scenario_pct_rq2": 62.99,
+      "scenario_pct_rq3": 13.99,
+      "repo_pct_rq2": 84.07,
+      "repo_pct_rq3": 44.54
+    },
+    "0.4": {
+      "n_patterns_ew": 467101,
+      "pct_patterns_ew": 78.4,
+      "scenario_pct_rq1": 77.01,
+      "scenario_pct_rq2": 62.09,
+      "scenario_pct_rq3": 13.62,
+      "repo_pct_rq2": 83.48,
+      "repo_pct_rq3": 44.25
+    },
+    "0.5": {
+      "n_patterns_ew": 464073,
+      "pct_patterns_ew": 77.9,
+      "scenario_pct_rq1": 75.03,
+      "scenario_pct_rq2": 59.54,
+      "scenario_pct_rq3": 11.74,
+      "repo_pct_rq2": 83.19,
+      "repo_pct_rq3": 43.66
+    },
+    "0.6": {
+      "n_patterns_ew": 444553,
+      "pct_patterns_ew": 74.6,
+      "scenario_pct_rq1": 70.08,
+      "scenario_pct_rq2": 58.07,
+      "scenario_pct_rq3": 10.89,
+      "repo_pct_rq2": 82.89,
+      "repo_pct_rq3": 41.3
+    },
+    "0.7": {
+      "n_patterns_ew": 425220,
+      "pct_patterns_ew": 71.4,
+      "scenario_pct_rq1": 67.12,
+      "scenario_pct_rq2": 55.54,
+      "scenario_pct_rq3": 10.28,
+      "repo_pct_rq2": 82.89,
+      "repo_pct_rq3": 41.3
+    }
+  },
+  "baseline_comparison": {
+    "xgboost_oof": {
+      "tp": 131,
+      "fp": 20,
+      "fn": 12,
+      "tn": 34,
+      "precision_pos": 0.8675496688741722,
+      "recall_pos": 0.916083916083916,
+      "f1_pos": 0.891156462585034,
+      "precision_neg": 0.7391304347826086,
+      "recall_neg": 0.6296296296296297,
+      "f1_neg": 0.68,
+      "balanced_accuracy": 0.7728567728567728,
+      "mcc": 0.5753899116950204
+    },
+    "all_yes": {
+      "tp": 143,
+      "fp": 54,
+      "fn": 0,
+      "tn": 0,
+      "precision_pos": 0.7258883248730964,
+      "recall_pos": 1.0,
+      "f1_pos": 0.8411764705882353,
+      "precision_neg": 0.0,
+      "recall_neg": 0.0,
+      "f1_neg": 0.0,
+      "balanced_accuracy": 0.5,
+      "mcc": 0.0
+    },
+    "mcnemar_xgb_vs_allyes": {
+      "b_xgb_only_right": 34,
+      "c_allyes_only_right": 12,
+      "chi2_cc": 9.58695652173913,
+      "p": 0.001959645054165619
+    }
+  },
+  "wall_seconds": 31.0
+}
