@@ -9,7 +9,7 @@
 
 Reproduction package for the paper
 
-> Mughal, A. H., Fatima, N., & Bilal, M. (2026). *Mining Subscenario Refactoring Opportunities in Behaviour-Driven Software Test Suites: ML Classifiers and LLM-Judge Baselines.* arXiv preprint [arXiv:2605.14568](https://arxiv.org/abs/2605.14568). Manuscript also under peer review at *Software Quality Journal* (Springer).
+> Mughal, A. H., Fatima, N., & Bilal, M. (2026). *Given, When, Then, Again: Mining Subscenario Refactoring Candidates in Behaviour-Driven Test Suites with ML Classifiers and LLM-Judge Baselines.* arXiv preprint [arXiv:2605.14568](https://arxiv.org/abs/2605.14568). (The arXiv v1 was announced under the previous title *Mining Subscenario Refactoring Opportunities in Behaviour-Driven Software Test Suites: ML Classifiers and LLM-Judge Baselines*; a v2 carrying the current title is pending.) A revised version has been prepared for submission to the *Journal of Systems and Software* (Elsevier).
 
 This is paper 3 of a three-paper arc on test reuse in Cucumber-style BDD. Paper 1 (Mughal 2024) introduced three concrete reuse mechanisms in Cucumber-Java; paper 2 ([cukereuse](https://github.com/amughalbscs16/cukereuse-release)) measured *step-level* duplication on a 1.1M-step open corpus; paper 3 (this repository) lifts the analysis from steps to *contiguous step subsequences* (slices), ranks them by refactoring suitability, and maps each surviving candidate to one of paper 1's three mechanisms.
 
@@ -170,20 +170,23 @@ The 1.1M-step Gherkin corpus, the per-step labelled pairs, and the cukereuse hyb
 
 ## Citation
 
-Please cite both the paper (arXiv preprint below) and this software/data archive. Once the paper is accepted at *Software Quality Journal*, the citation will be updated to point to the journal version of record. The `CITATION.cff` file is rendered by GitHub's "Cite this repository" widget; its `preferred-citation` field tracks the latest citable version.
+Please cite both the paper (arXiv preprint below) and this software/data archive. Once a journal version of record is published, the citation will be updated to point to it. The `CITATION.cff` file is rendered by GitHub's "Cite this repository" widget; its `preferred-citation` field tracks the latest citable version.
 
 ### BibTeX
 
 ```bibtex
-@misc{mughal2026miningsubscenariorefactoringopportunities,
-  title         = {Mining Subscenario Refactoring Opportunities in Behaviour-Driven Software Test Suites: ML Classifiers and LLM-Judge Baselines},
+@misc{mughal2026givenwhenthenagain,
+  title         = {Given, When, Then, Again: Mining Subscenario Refactoring Candidates in Behaviour-Driven Test Suites with ML Classifiers and LLM-Judge Baselines},
   author        = {Ali Hassaan Mughal and Noor Fatima and Muhammad Bilal},
   year          = {2026},
   eprint        = {2605.14568},
   archivePrefix = {arXiv},
   primaryClass  = {cs.SE},
   url           = {https://arxiv.org/abs/2605.14568},
-  note          = {Also under peer review at \emph{Software Quality Journal} (Springer); citation will be updated to the journal version on acceptance.}
+  note          = {arXiv v1 announced under the previous title; revised version
+                   prepared for submission to the \emph{Journal of Systems and
+                   Software} (Elsevier). Citation will be updated to the journal
+                   version on acceptance.}
 }
 
 @software{mughal2026cukereusesubscenariosv010,

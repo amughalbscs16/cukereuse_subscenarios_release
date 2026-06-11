@@ -36,7 +36,7 @@ identifiers:
     description: "arXiv landing page for the accompanying paper."
 preferred-citation:
   type: article
-  title: "Mining Subscenario Refactoring Opportunities in Behaviour-Driven Software Test Suites: ML Classifiers and LLM-Judge Baselines"
+  title: "Given, When, Then, Again: Mining Subscenario Refactoring Candidates in Behaviour-Driven Test Suites with ML Classifiers and LLM-Judge Baselines"
   authors:
     - family-names: Mughal
       given-names: Ali Hassaan
@@ -47,9 +47,9 @@ preferred-citation:
       given-names: Muhammad
       orcid: "https://orcid.org/0000-0003-4106-0256"
   year: 2026
-  journal: "arXiv preprint (under review at Software Quality Journal)"
+  journal: "arXiv preprint"
   url: "https://arxiv.org/abs/2605.14568"
   identifiers:
     - type: other
       value: "arXiv:2605.14568"
-  notes: "arXiv preprint 2605.14568. Manuscript also under peer review at Software Quality Journal (Springer, ISSN 0963-9314); citation will be updated to the journal version of record upon acceptance."
+  notes: "arXiv preprint 2605.14568 (v1 announced under the previous title 'Mining Subscenario Refactoring Opportunities in Behaviour-Driven Software Test Suites: ML Classifiers and LLM-Judge Baselines'; a v2 with the current title is pending). A revised version has been prepared for submission to the Journal of Systems and Software (Elsevier, ISSN 0164-1212); citation will be updated to the journal version of record upon acceptance."
